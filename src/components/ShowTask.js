@@ -1,4 +1,4 @@
-export const ShowTask = ({ tasklist, setTasklist }) => {
+export const ShowTask = ({ tasklist, setTasklist, task, setTask }) => {
   return (
     <section className="showTask">
       <div className="head">
