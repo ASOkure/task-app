@@ -1,11 +1,11 @@
 import Logo from "../assets/logo.png";
-import React from "react";
+
 export const Header = () => {
   return (
     <header>
       <div className="logo">
         <img src={Logo} alt="Taskmate Logo" />
-        <span>Task App</span>
+        <span>Taskmate</span>
       </div>
       <div className="themeSelector">
         <span className="light"></span>
